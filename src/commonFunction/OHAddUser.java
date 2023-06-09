@@ -40,7 +40,7 @@ public class OHAddUser {
 		this.clicksavebtn.click();
 		String expectedurl="viewSystemUsers";
 		String actualurl=driver.getCurrentUrl();
-		if(actualurl.contains(expectedurl))
+		if(actualurl.toLowerCase().contains(expectedurl.toLowerCase()))
 		{
 			Reporter.log("User added successfully::"+expectedurl+"     "+actualurl,true);
 			return true;

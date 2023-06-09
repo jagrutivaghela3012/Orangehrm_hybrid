@@ -11,7 +11,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 public class OHAppUtil {
-	WebDriver driver;
+	public WebDriver driver;
 	Properties conpro;
 	@BeforeSuite
 	public void setup()throws Throwable

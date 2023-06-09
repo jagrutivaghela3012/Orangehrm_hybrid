@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class Clickadmin {
 	WebDriver driver;
-	@FindBy(xpath = "")
+	@FindBy(xpath = "//b[normalize-space()='Admin']")
 	WebElement clickadminbtn;
 	public void Adminclick()
 	{
